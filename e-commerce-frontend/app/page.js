@@ -1,15 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import ExampleClient from "@/components/ExampleClient";
-import ExampleServer from "@/components/ExampleServer";
+
+import ProductsList from '@/components/ProductsList'
 
 export default function Home() {
   return (
     <main>
-      <p> Hello World</p>
-
-      <ExampleClient />
-      <ExampleServer />
+      <h1>Our Products</h1>
+      <ProductsList />
     </main>
-  );
+  )
 }
